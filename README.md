@@ -3,7 +3,7 @@ A Deep Learning based solution for finding children and people lost in public ga
 
 <p align="center">
 <a href="https://https://github.com/ay2306/FamilyWhere">
-    <img src="https://img.shields.io/badge/version-1.1-blue.svg" alt="version 1.1">
+    <img src="https://img.shields.io/badge/version-1.0-blue.svg" alt="version 1.0">
 </a>
 <a href="https://https://github.com/ay2306/FamilyWhere/pulls">
     <img src="https://img.shields.io/badge/PRs-Welome-brightgreen.svg" alt="PRs Welcome">
