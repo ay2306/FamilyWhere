@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/ay2306/FamilyWhere/blob/master/logo1.png" alt="FamilyWhere">
+</p>
+
 # FamilyWhere
 A Deep Learning based solution for finding children and people lost in public gatherings
 
