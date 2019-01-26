@@ -19,7 +19,7 @@ var storage = multer.diskStorage({
     }
 });
 var upload = multer({storage: storage});
-var PythonShell = require('python-shell');
+// var PythonShell = require('python-shell');
 
 router.post("/", upload.single('avatar') ,(req, res, next) => {
     console.log(req.file);
