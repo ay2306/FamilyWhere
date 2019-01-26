@@ -1,6 +1,18 @@
 # FamilyWhere
 A Deep Learning based solution for finding children and people lost in public gatherings
 
+<p align="center">
+<a href="https://https://github.com/ay2306/FamilyWhere">
+    <img src="https://img.shields.io/badge/version-1.1-blue.svg" alt="version 1.1">
+</a>
+<a href="https://https://github.com/ay2306/FamilyWhere/pulls">
+    <img src="https://img.shields.io/badge/PRs-Welome-brightgreen.svg" alt="PRs Welcome">
+</a>
+<a href="https://https://github.com/ay2306/FamilyWhere/blob/master/LICENSE">
+    <img src="https://img.shields.io/apm/l/vim-mode.svg" alt="License MIT">
+</a>
+</p>
+
 ## Workflow
 
 1. When anyone realises that their children or loved ones are lost in the crowd, he/ she will upload **a single photo** of the who lost along with contact information of self.
