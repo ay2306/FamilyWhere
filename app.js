@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 
 var app = express();
 
-const url = 'mongodb://localhost:27017/brainwave';
+const url = 'mongodb://localhost:27017/hack36';
 const connect = mongoose.connect(url,{
     useNewUrlParser: true
   });
