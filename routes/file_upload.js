@@ -19,14 +19,21 @@ var storage = multer.diskStorage({
     }
 });
 var upload = multer({storage: storage});
+var PythonShell = require('python-shell');
+
 router.post("/", upload.single('avatar') ,(req, res, next) => {
     console.log(req.file);
-    fs.rename('images/'+current_file_name,'images/'+req.query['id']+'.'+current_file_name.split('.')[1],(err)=>{
+    fs.rename('images/'+current_file_name,'images/test.'+current_file_name.split('.')[1],(err)=>{
 
     });
     res.statusCode = 200;
     res.setHeader('Content-type', 'application/json');
     res.json({status:"success"});
+
+    PythonShell.run('../python/test.py', options, function (err, data) {
+        if (err) res.send(err);
+        res.send(data.toString())
+});
 });
 
 
